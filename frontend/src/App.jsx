@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import CTA from "./components/CTA";
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Categories from './components/Categories'
@@ -10,6 +12,10 @@ function App() {
       <Hero />
       <Categories />
       <Products />
+      <CTA />
+      <Footer />
+
+
     </>
   )
 }
